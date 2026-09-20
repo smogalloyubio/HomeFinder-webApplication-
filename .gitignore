@@ -8,3 +8,4 @@ coverage/
 !.env.example
 floci*
 data*
+terraform/.terraform/*
