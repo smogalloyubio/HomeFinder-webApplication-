@@ -9,3 +9,4 @@ coverage/
 floci*
 data*
 terraform/.terraform/*
+azure-amd64.vhd
