@@ -1,0 +1,13 @@
+node_modules
+dist
+.git
+.env
+.npm
+npm-debug.log
+Dockerfile
+.dockerignore
+README.md
+floci-az.
+terraform
+docker-compose*
+.env*
