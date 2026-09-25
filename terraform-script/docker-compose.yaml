@@ -1,0 +1,13 @@
+# docker-compose.yml
+services:
+  floci-az:
+    image: floci/floci-az:latest
+    ports:
+      - "4577:4577"
+      #- "6443-6450:6443-6450"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data:/app/data
+    environment:
+      FLOCI_AZ_TLS_ENABLED: "true"
+      FLOCI_AZ_SERVICES_AKS_MOCKED: "false"
