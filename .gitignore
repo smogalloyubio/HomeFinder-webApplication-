@@ -17,3 +17,4 @@ terraform-script/terraform.lock*
 terraform-sql/terraform.lock*
 terraform-sql/.terraform/*
 terraform-sql/terraform*
+terraform-script/.terraform/*
