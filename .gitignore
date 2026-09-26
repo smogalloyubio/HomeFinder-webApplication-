@@ -14,3 +14,6 @@ azure-amd64.vhd
 terraform-script/terraform.tfstate*
 terraform-script/terraform.tfstate.ba*
 terraform-script/terraform.lock*
+terraform-sql/terraform.lock*
+terraform-sql/.terraform/*
+terraform-sql/terraform*
